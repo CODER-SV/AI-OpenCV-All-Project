@@ -1,7 +1,7 @@
 import cv2, os
 haar_file = cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 datasets = 'datasets'
-sub_data = 'vanshika' 
+sub_data = 'Shantanu' 
 
 path = os.path.join(datasets, sub_data)
 if not os.path.isdir(path):
